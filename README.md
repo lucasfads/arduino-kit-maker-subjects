@@ -1,6 +1,6 @@
 # Arduino Subjects
 
-Uma trilha de desafios práticos de Arduino, escrita em português e inspirada na clareza operacional dos subjects da 42.
+Uma trilha de desafios práticos de Arduino, escrita em português.
 
 Cada projeto propõe um resultado observável, mas não entrega a solução. A ideia é montar o circuito, desenvolver o sketch, testar por conta própria e então usar a régua de avaliação para verificar a entrega.
 
