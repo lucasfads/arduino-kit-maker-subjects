@@ -8,8 +8,8 @@ Cada projeto propõe um resultado observável, mas não entrega a solução. A i
 
 ```text
 01-nome-do-projeto/
-├── subject.md  # desafio, escopo e critérios de aceite
-└── review.md   # roteiro de validação e autoavaliação
+├── subject.md
+└── review.md
 ```
 
 Os projetos são numerados em ordem crescente de dificuldade e usam nomes em `kebab-case`.
@@ -18,32 +18,26 @@ Os projetos são numerados em ordem crescente de dificuldade e usam nomes em `ke
 
 | Nº | Projeto | Conceitos principais |
 | --- | --- | --- |
-| 01 | [Pisca-pisca](01-pisca-pisca/subject.md) | Saída digital, LED e temporização |
-| 02 | [SOS luminoso](02-sos-luminoso/subject.md) | Código Morse, laços e temporização |
-| 03 | [Brilho oscilante](03-brilho-oscilante/subject.md) | PWM, laços e transição gradual |
-| 04 | [Semáforo](04-semaforo/subject.md) | Múltiplas saídas, sequência e temporização |
-| 05 | [Interruptor de luz](05-interruptor-de-luz/subject.md) | Entrada digital, estado e debounce |
-| 06 | [Luzes coloridas](06-luzes-coloridas/subject.md) | LED RGB, múltiplas saídas e funções |
-| 07 | [Troque a cor das luzes](07-troque-a-cor-das-luzes/subject.md) | Entrada analógica e faixas de valores |
-| 08 | [Acionando um motor](08-acionando-um-motor/subject.md) | Entrada digital, `INPUT_PULLUP` e servomotor |
-| 09 | [Controlando o motor](09-controlando-o-motor/subject.md) | Entrada analógica, mapeamento e servomotor |
+| 01 | [Pisca-pisca](01-pisca-pisca/subject.md) | Saída digital e temporização |
+| 02 | [SOS luminoso](02-sos-luminoso/subject.md) | Código Morse e laços |
+| 03 | [Brilho oscilante](03-brilho-oscilante/subject.md) | PWM |
+| 04 | [Semáforo](04-semaforo/subject.md) | Múltiplas saídas |
+| 05 | [Interruptor de luz](05-interruptor-de-luz/subject.md) | Entrada digital e estado |
+| 06 | [Luzes coloridas](06-luzes-coloridas/subject.md) | LED RGB |
+| 07 | [Troque a cor das luzes](07-troque-a-cor-das-luzes/subject.md) | Entrada analógica |
+| 08 | [Acionando um motor](08-acionando-um-motor/subject.md) | Botão e servomotor |
+| 09 | [Controlando o motor](09-controlando-o-motor/subject.md) | Potenciômetro e servomotor |
+| 10 | [Sensor de luz ambiente](10-sensor-de-luz-ambiente/subject.md) | LDR |
+| 11 | [Dó ré mi](11-do-re-mi/subject.md) | Buzzer e frequências |
+| 12 | [Alarme com sensor a laser](12-alarme-com-sensor-a-laser/subject.md) | LDR, laser e alarme |
+| 13 | [Alarme de movimento](13-alarme-de-movimento/subject.md) | Sensor tilt |
+| 14 | [Contador digital](14-contador-digital/subject.md) | Display de sete segmentos |
+| 15 | [Dado eletrônico](15-dado-eletronico/subject.md) | Aleatoriedade e display |
 
 ## Como usar
 
 1. Leia o `subject.md` sem consultar soluções externas.
 2. Monte o circuito e implemente o sketch.
 3. Valide seu resultado com `review.md`.
-4. Só depois consulte referências externas, se precisar comparar abordagens.
 
-Veja [docs/setup.md](docs/setup.md) para preparar o ambiente e [docs/referencias.md](docs/referencias.md) para entender a proposta editorial dos subjects.
-
-## Status
-
-A trilha está em construção. Os projetos serão adicionados e revisados um a um.
-
-## Princípios
-
-- Aprender fazendo, com espaço para tentativa e erro.
-- Avaliar comportamentos observáveis, não apenas “o código parece certo”.
-- Manter os subjects autocontidos e evitar soluções prontas no repositório.
-- Escrever conteúdos próprios, claros e reutilizáveis.
+Veja [docs/setup.md](docs/setup.md) para preparar o ambiente.
