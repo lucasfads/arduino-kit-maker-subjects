@@ -1,13 +1,12 @@
-# Referências e créditos
+# Sobre os subjects
 
-Os desafios deste repositório são textos originais, elaborados para fins de estudo. Eles se inspiram na organização e no espírito de aprendizagem prática da 42.
+Os desafios deste repositório são textos originais, elaborados para fins de estudo e prática.
 
-Como referência comportamental para os projetos do Kit Maker Arduino, é utilizado o repositório [Strongreen/Kit_Maker_Arduino_FilipeFlop](https://github.com/Strongreen/Kit_Maker_Arduino_FilipeFlop).
+Cada subject define o problema, os limites e os comportamentos observáveis esperados. O objetivo é que qualquer pessoa possa tentar resolvê-lo sem depender de uma solução publicada e, depois, use a régua de avaliação para validar sua própria entrega.
 
-Essa referência é consultada para confirmar componentes, comportamento final e APIs do Arduino relacionadas a cada projeto. Seus sketches não são copiados para este repositório e soluções não são publicadas aqui, para preservar o desafio de quem estiver aprendendo.
-
-O repositório de referência não declara uma licença. Portanto, ao contribuir:
+## Ao contribuir
 
 - escreva subjects, critérios e explicações com texto próprio;
-- dê crédito a fontes externas relevantes;
-- não copie sketches, imagens ou outros materiais de terceiros sem autorização ou licença compatível.
+- mantenha os desafios autocontidos;
+- não inclua soluções completas no repositório;
+- não copie código, imagens ou outros materiais de terceiros sem autorização ou licença compatível.
