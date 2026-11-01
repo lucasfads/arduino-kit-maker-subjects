@@ -14,6 +14,13 @@ Cada projeto propõe um resultado observável, mas não entrega a solução. A i
 
 Os projetos são numerados em ordem crescente de dificuldade e usam nomes em `kebab-case`.
 
+## Projetos
+
+| Nº | Projeto | Conceitos principais |
+| --- | --- | --- |
+| 08 | [Acionando um motor](08-acionando-um-motor/subject.md) | Entrada digital, `INPUT_PULLUP` e servomotor |
+| 09 | [Controlando o motor](09-controlando-o-motor/subject.md) | Entrada analógica, mapeamento e servomotor |
+
 ## Como usar
 
 1. Leia o `subject.md` sem consultar soluções externas.
