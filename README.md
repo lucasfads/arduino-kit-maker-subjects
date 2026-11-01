@@ -21,6 +21,7 @@ Os projetos são numerados em ordem crescente de dificuldade e usam nomes em `ke
 | 01 | [Pisca-pisca](01-pisca-pisca/subject.md) | Saída digital, LED e temporização |
 | 02 | [SOS luminoso](02-sos-luminoso/subject.md) | Código Morse, laços e temporização |
 | 03 | [Brilho oscilante](03-brilho-oscilante/subject.md) | PWM, laços e transição gradual |
+| 04 | [Semáforo](04-semaforo/subject.md) | Múltiplas saídas, sequência e temporização |
 | 08 | [Acionando um motor](08-acionando-um-motor/subject.md) | Entrada digital, `INPUT_PULLUP` e servomotor |
 | 09 | [Controlando o motor](09-controlando-o-motor/subject.md) | Entrada analógica, mapeamento e servomotor |
 
