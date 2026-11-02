@@ -1,0 +1,39 @@
+{
+  "title": "Projeto 03 — Brilho Oscilante",
+  "board": "arduino-uno-r3",
+  "breadboard": "400-points",
+  "components": [
+    {
+      "id": "led1",
+      "type": "led",
+      "color": "red",
+      "pins": {
+        "anode": "F14",
+        "cathode": "F15"
+      }
+    },
+    {
+      "id": "r1",
+      "type": "resistor",
+      "value": "220Ω",
+      "pins": {
+        "a": "G19",
+        "b": "G15"
+      }
+    }
+  ],
+  "jumpers": [
+    {
+      "id": "J1",
+      "from": "arduino:GND2",
+      "to": "breadboard:J19",
+      "color": "black"
+    },
+    {
+      "id": "J2",
+      "from": "breadboard:I14",
+      "to": "arduino:D11",
+      "color": "green"
+    }
+  ]
+}
