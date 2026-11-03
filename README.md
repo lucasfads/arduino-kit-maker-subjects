@@ -47,6 +47,12 @@ Os projetos são numerados em ordem crescente de dificuldade e usam nomes em `ke
 
 Veja [docs/setup.md](docs/setup.md) para preparar o ambiente.
 
+## Aprenda em grupo
+
+Estude com amigos sempre que possível. Cada pessoa deve desenvolver a própria solução, mas vocês podem conversar sobre o problema, revisar circuitos, explicar decisões e comparar resultados depois de uma primeira tentativa.
+
+Ensinar o que você entendeu e ajudar outra pessoa a depurar uma ideia faz parte do aprendizado. Preserve a autoria: a meta é que cada participante compreenda e implemente seu próprio projeto.
+
 ## Programação
 
 Os sketches dos desafios usam a linguagem do ecossistema Arduino, baseada em C++. Ter noções básicas de lógica e programação ajuda, mas não é necessário dominar C++ para começar.
