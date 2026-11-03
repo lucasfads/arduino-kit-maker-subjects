@@ -1,0 +1,38 @@
+{
+  "title": "Projeto 11 — Dó Ré Mi",
+  "board": "arduino-uno-r3",
+  "breadboard": "400-points",
+  "components": [
+    {
+      "id": "buzzer",
+      "type": "buzzer",
+      "pins": {
+        "positive": "F15",
+        "negative": "F16"
+      }
+    },
+    {
+      "id": "r1",
+      "type": "resistor",
+      "value": "220Ω",
+      "pins": {
+        "a": "G10",
+        "b": "G15"
+      }
+    }
+  ],
+  "jumpers": [
+    {
+      "id": "J1",
+      "from": "arduino:D6",
+      "to": "breadboard:J10",
+      "color": "green"
+    },
+    {
+      "id": "J2",
+      "from": "arduino:GND2",
+      "to": "breadboard:J16",
+      "color": "black"
+    }
+  ]
+}
