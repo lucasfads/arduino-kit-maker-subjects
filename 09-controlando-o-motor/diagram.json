@@ -1,0 +1,59 @@
+{
+  "title": "Projeto 09 — Controlando o Motor",
+  "board": "arduino-uno-r3",
+  "breadboard": "400-points",
+  "components": [
+    {
+      "id": "servo",
+      "type": "micro-servo",
+      "label": "SERVO 9g",
+      "pins": {
+        "signal": "arduino:D9",
+        "vcc": "breadboard:B-10",
+        "gnd": "breadboard:B+10"
+      }
+    },
+    {
+      "id": "potentiometer",
+      "type": "potentiometer",
+      "value": "10kΩ",
+      "pins": {
+        "vcc": "F4",
+        "wiper": "F5",
+        "gnd": "F6"
+      }
+    }
+  ],
+  "jumpers": [
+    {
+      "id": "J1",
+      "from": "arduino:5V",
+      "to": "breadboard:B-1",
+      "color": "red"
+    },
+    {
+      "id": "J2",
+      "from": "arduino:GND2",
+      "to": "breadboard:B+1",
+      "color": "black"
+    },
+    {
+      "id": "J3",
+      "from": "breadboard:B-4",
+      "to": "breadboard:J4",
+      "color": "red"
+    },
+    {
+      "id": "J4",
+      "from": "arduino:A0",
+      "to": "breadboard:J5",
+      "color": "yellow"
+    },
+    {
+      "id": "J5",
+      "from": "breadboard:B+6",
+      "to": "breadboard:J6",
+      "color": "black"
+    }
+  ]
+}
