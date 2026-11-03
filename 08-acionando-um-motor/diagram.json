@@ -1,0 +1,53 @@
+{
+  "title": "Projeto 08 — Acionando um Motor",
+  "board": "arduino-uno-r3",
+  "breadboard": "400-points",
+  "components": [
+    {
+      "id": "servo",
+      "type": "micro-servo",
+      "label": "SERVO 9g",
+      "pins": {
+        "signal": "arduino:D9",
+        "vcc": "breadboard:B-10",
+        "gnd": "breadboard:B+10"
+      }
+    },
+    {
+      "id": "button",
+      "type": "push-button",
+      "pins": {
+        "a1": "E12",
+        "a2": "E14",
+        "b1": "F12",
+        "b2": "F14"
+      }
+    }
+  ],
+  "jumpers": [
+    {
+      "id": "J1",
+      "from": "arduino:5V",
+      "to": "breadboard:B-1",
+      "color": "red"
+    },
+    {
+      "id": "J2",
+      "from": "arduino:GND2",
+      "to": "breadboard:B+1",
+      "color": "black"
+    },
+    {
+      "id": "J3",
+      "from": "arduino:D7",
+      "to": "breadboard:A12",
+      "color": "green"
+    },
+    {
+      "id": "J4",
+      "from": "breadboard:B+14",
+      "to": "breadboard:J14",
+      "color": "black"
+    }
+  ]
+}
