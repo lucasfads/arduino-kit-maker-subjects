@@ -1,0 +1,25 @@
+{
+  "title": "Projeto 15 — Dado Eletrônico",
+  "board": "arduino-uno-r3",
+  "breadboard": "400-points",
+  "components": [
+    {"id":"display","type":"seven-segment","label":"DISPLAY 7 SEGMENTOS","pins":{"a":"E15","b":"E16","c":"E17","d":"E18","e":"E19","f":"F15","g":"F16","dp":"F17","com1":"F18","com2":"F19"}},
+    {"id":"r_display","type":"resistor","value":"220Ω","pins":{"a":"I17","b":"I21"}},
+    {"id":"tilt_sensor","type":"tilt-sensor","label":"SENSOR DE VIBRAÇÃO","pins":{"signal":"E24","gnd":"E25","vcc":"E26"}}
+  ],
+  "jumpers": [
+    {"id":"J1","from":"arduino:5V","to":"breadboard:B+1","color":"red"},
+    {"id":"J2","from":"arduino:D10","to":"breadboard:A15","color":"green"},
+    {"id":"J3","from":"arduino:D11","to":"breadboard:A16","color":"green"},
+    {"id":"J4","from":"arduino:D12","to":"breadboard:A18","color":"green"},
+    {"id":"J5","from":"arduino:D13","to":"breadboard:A19","color":"green"},
+    {"id":"J6","from":"arduino:D7","to":"breadboard:J15","color":"green"},
+    {"id":"J7","from":"arduino:D8","to":"breadboard:J16","color":"green"},
+    {"id":"J8","from":"arduino:D9","to":"breadboard:J18","color":"green"},
+    {"id":"J9","from":"breadboard:B+21","to":"breadboard:J21","color":"red"},
+    {"id":"J10","from":"arduino:GND2","to":"breadboard:B-1","color":"black"},
+    {"id":"J11","from":"arduino:D5","to":"breadboard:A24","color":"green"},
+    {"id":"J12","from":"breadboard:B-25","to":"breadboard:A25","color":"black"},
+    {"id":"J13","from":"breadboard:B+24","to":"breadboard:A26","color":"red"}
+  ]
+}
