@@ -36,20 +36,22 @@ Antes de energizar o circuito:
 - desconecte o Arduino do USB antes de alterar uma montagem;
 - use uma fonte externa regulada com terra comum se um componente exigir mais corrente do que o Arduino pode fornecer com segurança.
 
-## Software
+## Software e simuladores
 
-Você pode usar:
+Você pode escolher um ambiente físico ou virtual:
 
-- **Arduino IDE**, para começar rapidamente; ou
-- **PlatformIO**, se já usa VS Code e quer um fluxo mais próximo do desenvolvimento de software.
+- **Arduino IDE**, para começar rapidamente com sketches em C++;
+- **PlatformIO**, se já usa VS Code e quer um fluxo mais próximo do desenvolvimento de software;
+- **[Tinkercad Circuits](https://www.tinkercad.com/circuits)**, para montar e simular circuitos no navegador, inclusive com lógica em blocos;
+- **[Wokwi](https://wokwi.com/arduino)**, para escrever sketches e simular Arduino no navegador.
 
-Selecione a placa correta, normalmente **Arduino Uno**, e a porta serial correspondente antes de enviar um sketch.
+Nos simuladores, você não precisa ter placa, cabo USB ou componentes físicos. Eles são uma boa forma de experimentar antes de montar o circuito real. Para usar Arduino IDE ou PlatformIO, selecione a placa correta — normalmente **Arduino Uno** — e a porta serial correspondente antes de enviar um sketch.
 
 ## Fluxo sugerido
 
 1. Leia o subject por inteiro.
 2. Separe e identifique os componentes.
-3. Monte o circuito com o Arduino desconectado.
-4. Escreva e envie o sketch.
+3. Monte o circuito com o Arduino desconectado ou reproduza-o no simulador.
+4. Escreva e envie o sketch — ou comece com blocos no Tinkercad e examine o código equivalente.
 5. Teste os cenários do subject.
 6. Use o arquivo `review.md` somente após a primeira tentativa.
