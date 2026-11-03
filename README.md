@@ -1,15 +1,20 @@
 # Arduino Subjects
 
-Uma trilha de desafios práticos de Arduino, escrita em português.
+Uma trilha de desafios práticos de Arduino, escrita em português e organizada para aprendizado baseado em projetos (*Project-Based Learning*, PBL).
 
-Cada projeto propõe um resultado observável, mas não entrega a solução. A ideia é montar o circuito, desenvolver o sketch, testar por conta própria e então usar a régua de avaliação para verificar a entrega.
+A proposta é aprender construindo: cada projeto define um circuito e um comportamento observável, mas não entrega a solução. Monte, desenvolva o sketch, teste por conta própria e use a régua de avaliação para validar sua entrega.
+
+Os desafios privilegiam componentes comuns, fáceis de encontrar e de baixo custo. Um kit físico é recomendável, mas não obrigatório.
 
 ## Estrutura
 
 ```text
 01-nome-do-projeto/
 ├── subject.md
-└── review.md
+├── review.md
+├── diagram.json
+└── assets/
+    └── circuito.png
 ```
 
 Os projetos são numerados em ordem crescente de dificuldade e usam nomes em `kebab-case`.
@@ -41,3 +46,20 @@ Os projetos são numerados em ordem crescente de dificuldade e usam nomes em `ke
 3. Valide seu resultado com `review.md`.
 
 Veja [docs/setup.md](docs/setup.md) para preparar o ambiente.
+
+## Sem um kit físico?
+
+Você pode começar pelos simuladores online e gratuitos:
+
+- [Tinkercad Circuits](https://www.tinkercad.com/circuits)
+- [Wokwi](https://wokwi.com/arduino)
+
+## Diagramas dos circuitos
+
+Cada projeto inclui uma imagem de referência em `assets/circuito.png` e um arquivo `diagram.json` editável. Eles representam uma possível montagem: outras disposições na protoboard também são válidas quando preservam as conexões, polaridades e o comportamento esperado.
+
+Os diagramas foram criados com o [Arduino Diagram Alchemist](https://lucasfads.github.io/arduino-diagram-alchemist/). O código da ferramenta está disponível em [lucasfads/arduino-diagram-alchemist](https://github.com/lucasfads/arduino-diagram-alchemist).
+
+## Referências
+
+Consulte [docs/referencias.md](docs/referencias.md) para o contexto dos materiais públicos usados como referência técnica.
