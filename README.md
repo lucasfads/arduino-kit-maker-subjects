@@ -47,6 +47,15 @@ Os projetos são numerados em ordem crescente de dificuldade e usam nomes em `ke
 
 Veja [docs/setup.md](docs/setup.md) para preparar o ambiente.
 
+## Programação
+
+Os sketches dos desafios usam a linguagem do ecossistema Arduino, baseada em C++. Ter noções básicas de lógica e programação ajuda, mas não é necessário dominar C++ para começar.
+
+Há dois caminhos possíveis:
+
+- **Código:** use a Arduino IDE, VS Code ou Wokwi para escrever e executar o sketch.
+- **Blocos:** no Tinkercad Circuits, você pode montar a lógica por blocos de arrastar e soltar e consultar o código equivalente, avançando gradualmente para a programação em texto.
+
 ## Sem um kit físico?
 
 Você pode começar pelos simuladores online e gratuitos:
