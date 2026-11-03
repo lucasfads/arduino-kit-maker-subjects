@@ -42,3 +42,14 @@ Use este roteiro depois da sua primeira tentativa. Ele serve para validar o comp
 
 - [ ] A entrega atende à parte obrigatória.
 - [ ] Registrei o que ainda preciso corrigir ou entender.
+
+<details>
+<summary>Referência de montagem (uma solução possível)</summary>
+
+A disposição física dos componentes é apenas uma sugestão. Você pode usar outras posições na protoboard, desde que preserve as conexões, polaridades e o comportamento esperado.
+
+![Referência de montagem](assets/circuito.png)
+
+[Ver arquivo editável do diagrama](diagram.json)
+
+</details>

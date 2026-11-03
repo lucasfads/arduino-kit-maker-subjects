@@ -22,3 +22,14 @@
 | Ordem correta da escala | ☐ | ☐ | ☐ |
 | Uso de array e laço | ☐ | ☐ | ☐ |
 | Repetição automática | ☐ | ☐ | ☐ |
+
+<details>
+<summary>Referência de montagem (uma solução possível)</summary>
+
+A disposição física dos componentes é apenas uma sugestão. Você pode usar outras posições na protoboard, desde que preserve as conexões, polaridades e o comportamento esperado.
+
+![Referência de montagem](assets/circuito.png)
+
+[Ver arquivo editável do diagrama](diagram.json)
+
+</details>

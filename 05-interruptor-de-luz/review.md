@@ -31,3 +31,14 @@
 - O botão parece invertido: com `INPUT_PULLUP`, pressionado é `LOW`.
 - O LED alterna várias vezes: aguarde o botão ser solto antes de aceitar o próximo pressionamento.
 - O LED não acende: confira polaridade, resistor e retorno ao GND.
+
+<details>
+<summary>Referência de montagem (uma solução possível)</summary>
+
+A disposição física dos componentes é apenas uma sugestão. Você pode usar outras posições na protoboard, desde que preserve as conexões, polaridades e o comportamento esperado.
+
+![Referência de montagem](assets/circuito.png)
+
+[Ver arquivo editável do diagrama](diagram.json)
+
+</details>

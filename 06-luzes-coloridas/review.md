@@ -31,3 +31,14 @@
 - As cores parecem invertidas: revise se o LED é de ânodo comum.
 - Uma cor não aparece: confira a ordem física dos terminais do LED RGB.
 - A luz fica sempre acesa: em ânodo comum, `HIGH` apaga e `LOW` acende.
+
+<details>
+<summary>Referência de montagem (uma solução possível)</summary>
+
+A disposição física dos componentes é apenas uma sugestão. Você pode usar outras posições na protoboard, desde que preserve as conexões, polaridades e o comportamento esperado.
+
+![Referência de montagem](assets/circuito.png)
+
+[Ver arquivo editável do diagrama](diagram.json)
+
+</details>

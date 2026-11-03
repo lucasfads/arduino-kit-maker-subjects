@@ -31,3 +31,14 @@
 - A leitura não muda: confira o terminal central do potenciômetro.
 - Uma faixa parece errada: confira os limites de cada condição.
 - Cores invertidas: revise a configuração de ânodo comum e os canais do LED.
+
+<details>
+<summary>Referência de montagem (uma solução possível)</summary>
+
+A disposição física dos componentes é apenas uma sugestão. Você pode usar outras posições na protoboard, desde que preserve as conexões, polaridades e o comportamento esperado.
+
+![Referência de montagem](assets/circuito.png)
+
+[Ver arquivo editável do diagrama](diagram.json)
+
+</details>
