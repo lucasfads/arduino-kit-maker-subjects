@@ -41,7 +41,7 @@ Antes de energizar o circuito:
 Você pode escolher um ambiente físico ou virtual:
 
 - **Arduino IDE**, para começar rapidamente com sketches em C++;
-- **PlatformIO**, se já usa VS Code e quer um fluxo mais próximo do desenvolvimento de software;
+- **PlatformIO**, instalado como extensão do VS Code, se quer um fluxo mais próximo do desenvolvimento de software;
 - **[Tinkercad Circuits](https://www.tinkercad.com/circuits)**, para montar e simular circuitos no navegador, inclusive com lógica em blocos;
 - **[Wokwi](https://wokwi.com/arduino)**, para escrever sketches e simular Arduino no navegador.
 
