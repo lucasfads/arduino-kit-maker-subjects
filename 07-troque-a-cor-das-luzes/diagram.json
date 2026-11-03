@@ -1,0 +1,101 @@
+{
+  "title": "Projeto 07 — Troque a Cor das Luzes",
+  "board": "arduino-uno-r3",
+  "breadboard": "400-points",
+  "components": [
+    {
+      "id": "potentiometer",
+      "type": "potentiometer",
+      "value": "10kΩ",
+      "pins": {
+        "vcc": "F4",
+        "wiper": "F5",
+        "gnd": "F6"
+      }
+    },
+    {
+      "id": "rgb_led",
+      "type": "rgb-led",
+      "pins": {
+        "red": "D14",
+        "common": "D15",
+        "green": "D16",
+        "blue": "D17"
+      }
+    },
+    {
+      "id": "r_red",
+      "type": "resistor",
+      "value": "220Ω",
+      "pins": { "a": "C10", "b": "C14" }
+    },
+    {
+      "id": "r_green",
+      "type": "resistor",
+      "value": "220Ω",
+      "pins": { "a": "E16", "b": "E20" }
+    },
+    {
+      "id": "r_blue",
+      "type": "resistor",
+      "value": "220Ω",
+      "pins": { "a": "C17", "b": "C21" }
+    }
+  ],
+  "jumpers": [
+    {
+      "id": "J1",
+      "from": "arduino:5V",
+      "to": "breadboard:B+1",
+      "color": "red"
+    },
+    {
+      "id": "J2",
+      "from": "breadboard:B+15",
+      "to": "breadboard:A15",
+      "color": "red"
+    },
+    {
+      "id": "J3",
+      "from": "arduino:D7",
+      "to": "breadboard:A10",
+      "color": "red"
+    },
+    {
+      "id": "J4",
+      "from": "arduino:D6",
+      "to": "breadboard:A20",
+      "color": "green"
+    },
+    {
+      "id": "J5",
+      "from": "arduino:D5",
+      "to": "breadboard:A21",
+      "color": "blue"
+    },
+    {
+      "id": "J6",
+      "from": "arduino:GND2",
+      "to": "breadboard:B-1",
+      "color": "black"
+    },
+    {
+      "id": "J7",
+      "from": "breadboard:B+4",
+      "to": "breadboard:J4",
+      "color": "red"
+    },
+    {
+      "id": "J8",
+      "from": "breadboard:B-6",
+      "to": "breadboard:J6",
+      "color": "black"
+    },
+    {
+      "id": "J9",
+      "from": "arduino:A0",
+      "to": "breadboard:J5",
+      "color": "yellow"
+    }
+  ]
+}
