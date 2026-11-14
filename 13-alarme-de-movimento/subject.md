@@ -15,7 +15,7 @@
 | --- | --- |
 | Pasta | `13-alarme-de-movimento/` |
 | Arquivo | `alarme-de-movimento.ino` |
-| Hardware | 1 buzzer, 1 sensor de vibração tilt com chave de ajuste e 7 jumpers |
+| Hardware | 1 buzzer, 1 resistor de 220 Ω, 1 sensor de vibração tilt com chave de ajuste e 7 jumpers |
 | Pinos | Sensor em `7`; buzzer em `6` |
 | APIs esperadas | `digitalRead()`, `tone()`, `noTone()` e `delay()` |
 
