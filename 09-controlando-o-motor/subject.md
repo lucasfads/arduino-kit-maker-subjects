@@ -16,7 +16,7 @@
 | Pasta de entrega | `09-controlando-o-motor/` |
 | Arquivo esperado | `controlando-o-motor.ino` |
 | Placa | Arduino Uno ou compatível |
-| Hardware obrigatório | Protoboard, 1 servomotor 9g, 1 potenciômetro de 10 kΩ e 5 jumpers |
+| Hardware obrigatório | Protoboard, 1 servomotor 9g, 1 potenciômetro de 10 kΩ e 8 jumpers |
 | Biblioteca permitida | `Servo.h` |
 | APIs esperadas | `analogRead()`, `map()`, `Servo.attach()`, `Servo.write()` |
 

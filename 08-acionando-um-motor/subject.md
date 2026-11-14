@@ -16,7 +16,7 @@
 | Pasta de entrega | `08-acionando-um-motor/` |
 | Arquivo esperado | `acionando-um-motor.ino` |
 | Placa | Arduino Uno ou compatível |
-| Hardware obrigatório | Protoboard, 1 servomotor 9g, 1 chave táctil push button e 4 jumpers |
+| Hardware obrigatório | Protoboard, 1 servomotor 9g, 1 chave táctil push button e 7 jumpers |
 | Biblioteca permitida | `Servo.h` |
 | APIs esperadas | `pinMode()`, `digitalRead()`, `Servo.attach()`, `Servo.write()`, `delay()` |
 
